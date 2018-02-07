@@ -44,6 +44,19 @@ p {
   padding: 0px, 20px;
 }
 
+#sidebar {
+  background-color: gray;
+  position: fixed;
+  width: 120px;
+  left: 0;
+  top: 0;
+  bottom: 0;
+}
+
+#page-content {
+  margin-left: 120px;
+}
+
 #lead-image {
   width: 150px;
   height: 150px;
@@ -106,8 +119,24 @@ p {
 .movie-image {
   width: 100px;
   height: 100px;
-  padding: 0px 20px 0px 0px;
+  margin: 20px 20px 20px 20px;
 }
+
+.sidebar-list > li {
+  text-align: center;
+  font-size: 30px;
+  padding: 20px, 0px;
+}
+
+.sidebar-icon:hover {
+  color: white;
+}
+
+.container-fluid {
+  width: 90%;
+  margin: 30px auto;
+}
+
 @media (max-width: 960px) {
   /* For a screen < 960px, this CSS will be read */
   .container {
