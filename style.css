@@ -122,10 +122,14 @@ p {
   margin: 20px 20px 20px 20px;
 }
 
-.sidebar-list > li {
+.sidebarlist {
   text-align: center;
   font-size: 30px;
-  padding: 20px, 0px;
+  padding: 40px, 0px; /* why is this being overrule by ul above? */
+}
+
+.sidebar-icon {
+  padding: 20px 0px;
 }
 
 .sidebar-icon:hover {
